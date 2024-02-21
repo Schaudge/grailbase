@@ -33,8 +33,8 @@ require (
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
 	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
 	google.golang.org/appengine v1.6.5 // indirect
-	v.io v0.1.15
-	v.io/x/lib v0.1.7
+	v.io v0.2.0
+	v.io/x/lib v0.1.18
 )
 
 require (
