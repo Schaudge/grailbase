@@ -14,7 +14,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 const cachelineSize = 64

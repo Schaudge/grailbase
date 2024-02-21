@@ -9,7 +9,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 var (

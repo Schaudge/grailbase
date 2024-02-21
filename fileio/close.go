@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 type named interface {

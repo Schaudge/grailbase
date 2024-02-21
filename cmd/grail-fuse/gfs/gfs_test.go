@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/grailbio/base/cmd/grail-fuse/gfs"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/cmd/grail-fuse/gfs"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
 	"github.com/grailbio/testutil/h"

@@ -19,11 +19,11 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs/cloudwatchlogsiface"
-	"github.com/grailbio/base/config"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/eventlog/internal/marshal"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/config"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/eventlog/internal/marshal"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/must"
 )
 
 // maxBatchSize is the maximum batch size of the events that we send to CloudWatch Logs, "calculated

@@ -22,8 +22,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/grailbio/base/digest"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/digest"
+	"github.com/Schaudge/grailbase/traverse"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/s3test"
 )

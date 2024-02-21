@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 const (

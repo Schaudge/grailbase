@@ -10,8 +10,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 var scannerFreePool = sync.Pool{

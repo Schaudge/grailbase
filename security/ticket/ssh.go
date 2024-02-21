@@ -7,9 +7,9 @@ package ticket
 import (
 	"time"
 
-	"github.com/grailbio/base/common/log"
-	"github.com/grailbio/base/security/keycrypt"
-	"github.com/grailbio/base/security/ssh/certificateauthority"
+	"github.com/Schaudge/grailbase/common/log"
+	"github.com/Schaudge/grailbase/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/ssh/certificateauthority"
 )
 
 const sshDriftMargin = 10 * time.Minute

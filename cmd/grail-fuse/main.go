@@ -8,10 +8,10 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/grailbio/base/cmd/grail-fuse/gfs"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/s3file"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/cmd/grail-fuse/gfs"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/s3file"
+	"github.com/Schaudge/grailbase/log"
 )
 
 func main() {

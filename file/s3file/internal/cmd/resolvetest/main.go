@@ -20,7 +20,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 func main() {

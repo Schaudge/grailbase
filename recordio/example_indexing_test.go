@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/recordio"
+	"github.com/Schaudge/grailbase/recordio"
 )
 
 type recordioIndex map[string]recordio.ItemLocation

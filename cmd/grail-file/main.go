@@ -5,10 +5,10 @@ import (
 	"flag"
 	"os"
 
-	"github.com/grailbio/base/cmd/grail-file/cmd"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/s3file"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/cmd/grail-file/cmd"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/s3file"
+	"github.com/Schaudge/grailbase/log"
 )
 
 func main() {

@@ -34,8 +34,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3iface"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/retry"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/retry"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/time/rate"
 )

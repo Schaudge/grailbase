@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/crypto/encryption"
+	"github.com/Schaudge/grailbase/crypto/encryption"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/encryptiontest"
 	"github.com/grailbio/testutil/expect"

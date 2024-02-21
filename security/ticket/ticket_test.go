@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/vcontext"
 )
 
 func TestMerge(t *testing.T) {

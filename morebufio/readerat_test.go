@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/traverse"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

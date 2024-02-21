@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/grailbio/base/compress/zstd"
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/recordioiov"
+	"github.com/Schaudge/grailbase/compress/zstd"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/recordioiov"
 )
 
 // Name is the registered name of the zstd transformer.

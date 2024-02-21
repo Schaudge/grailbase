@@ -3,7 +3,7 @@ package ctxloadingcache
 import (
 	"context"
 
-	"github.com/grailbio/base/sync/loadingcache"
+	"github.com/Schaudge/grailbase/sync/loadingcache"
 )
 
 type contextKeyType struct{}

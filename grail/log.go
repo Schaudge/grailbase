@@ -1,7 +1,7 @@
 package grail
 
 import (
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 	"v.io/x/lib/vlog"
 )
 
@@ -19,7 +19,7 @@ func (VlogOutputter) Level() log.Level {
 func (VlogOutputter) Output(calldepth int, level log.Level, s string) error {
 	// Notice that we do not add 1 to the call depth. In vlog, 0 depth means
 	// that the caller's file/line will be used. This is different from the log
-	// and github.com/grailbio/base/log packages, where that's the behavior you
+	// and github.com/Schaudge/grailbase/log packages, where that's the behavior you
 	// get with depth 1.
 	switch level {
 	case log.Off:

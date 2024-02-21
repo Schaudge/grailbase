@@ -5,9 +5,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/ioctx/fsctx"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/ioctx/fsctx"
 )
 
 type funcLeaf struct {

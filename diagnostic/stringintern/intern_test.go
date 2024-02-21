@@ -3,7 +3,7 @@ package stringintern
 import (
 	"testing"
 
-	"github.com/grailbio/base/diagnostic/memsize"
+	"github.com/Schaudge/grailbase/diagnostic/memsize"
 )
 
 type AB struct {

@@ -8,7 +8,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 // Mutex is a context-aware mutex.  It must not be copied.

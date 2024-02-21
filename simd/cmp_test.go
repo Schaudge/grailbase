@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 )
 
 func firstUnequal8Slow(arg1, arg2 []byte, startPos int) int {

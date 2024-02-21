@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/ec2metadata"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/grailbio/base/sync/once"
+	"github.com/Schaudge/grailbase/sync/once"
 )
 
 var (

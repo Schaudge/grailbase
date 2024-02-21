@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/retry"
+	"github.com/Schaudge/grailbase/retry"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/s3test"
 

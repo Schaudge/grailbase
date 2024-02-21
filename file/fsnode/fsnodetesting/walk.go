@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/ioctx"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/ioctx"
 	"github.com/grailbio/testutil/assert"
 	"github.com/stretchr/testify/require"
 )

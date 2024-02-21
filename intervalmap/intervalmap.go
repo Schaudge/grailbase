@@ -17,8 +17,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/must"
 )
 
 // Key is the type for interval boundaries.

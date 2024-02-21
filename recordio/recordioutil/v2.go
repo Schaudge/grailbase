@@ -7,9 +7,9 @@ package recordioutil
 import (
 	"fmt"
 
-	"github.com/grailbio/base/fileio"
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/recordioflate"
+	"github.com/Schaudge/grailbase/fileio"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/recordioflate"
 )
 
 // ScannerV2OptsFromName returns the options to use for the supplied pathname

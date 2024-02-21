@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/sync/ctxsync"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/sync/ctxsync"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"

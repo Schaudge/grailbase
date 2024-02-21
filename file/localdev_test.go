@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/file"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 	"github.com/stretchr/testify/require"

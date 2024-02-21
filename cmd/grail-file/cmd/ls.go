@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/file"
 )
 
 func Ls(ctx context.Context, out io.Writer, args []string) error {

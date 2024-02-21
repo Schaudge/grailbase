@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
 )
 
 func Cat(ctx context.Context, out io.Writer, args []string) (err error) {

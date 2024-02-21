@@ -16,7 +16,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/grailbio/base/grail/go/net/http/pprof"
+	"github.com/Schaudge/grailbase/grail/go/net/http/pprof"
 	"v.io/x/lib/vlog"
 )
 

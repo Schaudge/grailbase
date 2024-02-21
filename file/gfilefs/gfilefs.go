@@ -10,18 +10,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/grail/biofs/biofseventlog"
-	"github.com/grailbio/base/ioctx/fsctx"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/grail/biofs/biofseventlog"
+	"github.com/Schaudge/grailbase/ioctx/fsctx"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/vcontext"
 	v23context "v.io/v23/context"
 )
 
 // New returns a new parent node rooted at root.  root must be a directory path
-// that can be handled by github.com/grailbio/base/file.  name will become the
+// that can be handled by github.com/Schaudge/grailbase/file.  name will become the
 // name of the returned node.
 func New(root, name string) fsnode.Parent {
 	return newDirNode(root, name)

@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/grailbio/base/config"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/config"
+	"github.com/Schaudge/grailbase/must"
 )
 
 type (

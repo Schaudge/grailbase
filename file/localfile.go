@@ -14,9 +14,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/log"
 )
 
 type localImpl struct{}

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/compress"
+	"github.com/Schaudge/grailbase/compress"
 	"github.com/grailbio/testutil/assert"
 	"github.com/klauspost/compress/zstd"
 )

@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/must"
 )
 
 // This test uses a mock "app" to demonstrate various aspects of package config.

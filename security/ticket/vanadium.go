@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grailbio/base/common/log"
+	"github.com/Schaudge/grailbase/common/log"
 	v23 "v.io/v23"
 	"v.io/v23/security"
 	"v.io/v23/vom"

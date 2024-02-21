@@ -7,8 +7,8 @@ package recordioutil
 import (
 	"io"
 
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
 	"github.com/klauspost/compress/flate"
 )
 

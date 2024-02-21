@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 func recovered(f func()) (v interface{}) {

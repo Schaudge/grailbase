@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/grailbio/base/cmdutil"
-	_ "github.com/grailbio/base/cmdutil/interactive"
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/cmdutil"
+	_ "github.com/Schaudge/grailbase/cmdutil/interactive"
+	"github.com/Schaudge/grailbase/vcontext"
 	"v.io/v23/context"
 	"v.io/x/lib/cmdline"
 	"v.io/x/lib/vlog"

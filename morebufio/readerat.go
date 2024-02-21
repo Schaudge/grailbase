@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/ioctx"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/ioctx"
 )
 
 type readerAt struct {

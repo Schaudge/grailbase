@@ -7,10 +7,10 @@ import (
 	"io"
 	"math/rand"
 
-	"github.com/grailbio/base/file/internal/kernel"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/must"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/file/internal/kernel"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/must"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 // Stress runs a stress test on rAt.

@@ -10,9 +10,9 @@ import (
 	"encoding/pem"
 	"time"
 
-	"github.com/grailbio/base/common/log"
-	"github.com/grailbio/base/security/keycrypt"
-	"github.com/grailbio/base/security/tls/certificateauthority"
+	"github.com/Schaudge/grailbase/common/log"
+	"github.com/Schaudge/grailbase/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/tls/certificateauthority"
 )
 
 const tlsDriftMargin = 10 * time.Minute

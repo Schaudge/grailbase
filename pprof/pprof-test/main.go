@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/cmdutil"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/pprof"
+	"github.com/Schaudge/grailbase/cmdutil"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/pprof"
 	"v.io/x/lib/cmdline"
 	"v.io/x/lib/vlog"
 )

@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 func TestTaskOnceConcurrency(t *testing.T) {

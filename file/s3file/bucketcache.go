@@ -16,8 +16,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3iface"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/sync/loadingcache"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/sync/loadingcache"
 )
 
 // bucketRegionCacheDuration is chosen fairly arbitrarily. We expect region changes to be

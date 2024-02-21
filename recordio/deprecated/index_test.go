@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/grailbio/base/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
 	"github.com/grailbio/testutil/expect"
 )
 

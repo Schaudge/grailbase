@@ -5,7 +5,7 @@
 package recordioutil
 
 import (
-	"github.com/grailbio/base/fileio"
+	"github.com/Schaudge/grailbase/fileio"
 	"github.com/klauspost/compress/flate"
 )
 

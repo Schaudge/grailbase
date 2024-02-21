@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/must"
 )
 
 // TestDepth verifies that the depth passed to Func correctly locates the

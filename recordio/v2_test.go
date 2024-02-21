@@ -12,11 +12,11 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/deprecated"
-	"github.com/grailbio/base/recordio/internal"
-	"github.com/grailbio/base/recordio/recordioiov"
-	"github.com/grailbio/base/recordio/recordiozstd"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/internal"
+	"github.com/Schaudge/grailbase/recordio/recordioiov"
+	"github.com/Schaudge/grailbase/recordio/recordiozstd"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
 )

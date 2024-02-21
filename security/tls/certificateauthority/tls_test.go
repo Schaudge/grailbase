@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 )
 
 func TestAuthority(t *testing.T) {

@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs/cloudwatchlogsiface"
-	"github.com/grailbio/base/eventlog/internal/marshal"
+	"github.com/Schaudge/grailbase/eventlog/internal/marshal"
 )
 
 const testGroup = "testGroup"

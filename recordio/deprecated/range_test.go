@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
 	"github.com/grailbio/testutil"
 )
 

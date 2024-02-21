@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 const defaultItemsPerRecord = 4096

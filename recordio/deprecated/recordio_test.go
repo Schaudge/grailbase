@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/recordio/deprecated"
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/internal"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
 	"github.com/klauspost/compress/gzip"

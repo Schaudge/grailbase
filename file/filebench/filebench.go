@@ -12,10 +12,10 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/must"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/must"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 // ReadSizes are the parameters for a benchmark run.

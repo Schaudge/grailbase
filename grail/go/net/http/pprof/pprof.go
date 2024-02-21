@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 // Cmdline responds with the running program's

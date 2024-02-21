@@ -13,7 +13,7 @@ package must
 import (
 	"fmt"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 // Func is the function called to report an error and interrupt execution. Func
@@ -23,7 +23,7 @@ import (
 // function, e.g. the caller of Nil. This can be used to annotate messages.
 //
 // The default implementation logs the message with
-// github.com/grailbio/base/log at the Error level and then panics.
+// github.com/Schaudge/grailbase/log at the Error level and then panics.
 var Func func(int, ...interface{}) = func(depth int, v ...interface{}) {
 	s := fmt.Sprint(v...)
 	// Nothing to do if output fails.

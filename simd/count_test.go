@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 )
 
 func init() {

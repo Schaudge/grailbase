@@ -3,7 +3,7 @@ package s3util
 import (
 	"context"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/request"

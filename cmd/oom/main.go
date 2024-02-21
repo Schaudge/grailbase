@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/grailbio/base/stress/oom"
+	"github.com/Schaudge/grailbase/stress/oom"
 )
 
 func main() {

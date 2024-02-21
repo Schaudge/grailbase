@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/cmdutil"
+	"github.com/Schaudge/grailbase/cmdutil"
 	"github.com/grailbio/testutil"
 	"v.io/x/ref/lib/security"
 	_ "v.io/x/ref/runtime/factories/library"

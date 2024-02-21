@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	awsrequest "github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 // Annotate interprets err as an AWS request error and returns a version of it

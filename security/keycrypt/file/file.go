@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 )
 
 func init() {

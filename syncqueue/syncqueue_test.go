@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grailbio/base/syncqueue"
+	"github.com/Schaudge/grailbase/syncqueue"
 	"github.com/stretchr/testify/require"
 )
 

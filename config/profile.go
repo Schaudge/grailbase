@@ -34,7 +34,7 @@
 // accommodate for "overlays", where for example a user profile is
 // loaded after a base profile to provide customization. Within
 // GRAIL, a base profile is declared in the standard package
-// github.com/grailbio/base/grail, which also loads a user
+// github.com/Schaudge/grailbase/grail, which also loads a user
 // profile from $HOME/grail/profile.
 //
 // A parameter is set by the directive param. For example, the

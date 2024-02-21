@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/grailbio/base/fileio"
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/deprecated"
-	"github.com/grailbio/base/recordio/recordioutil"
+	"github.com/Schaudge/grailbase/fileio"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/recordioutil"
 	"github.com/stretchr/testify/require"
 )
 

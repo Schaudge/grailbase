@@ -26,8 +26,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/ioctx/fsctx"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/ioctx/fsctx"
 )
 
 type (

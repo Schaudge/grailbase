@@ -8,9 +8,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/grailbio/base/cmdutil"
-	_ "github.com/grailbio/base/cmdutil/interactive" // print output to console
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/cmdutil"
+	_ "github.com/Schaudge/grailbase/cmdutil/interactive" // print output to console
+	"github.com/Schaudge/grailbase/vcontext"
 	_ "github.com/grailbio/v23/factories/grail"
 	"v.io/v23/context"
 	"v.io/x/lib/cmdline"

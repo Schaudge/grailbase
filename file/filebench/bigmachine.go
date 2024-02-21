@@ -11,9 +11,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/must"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/must"
+	"github.com/Schaudge/grailbase/traverse"
 	"github.com/grailbio/bigmachine"
 )
 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grailbio/base/unsafe"
+	"github.com/Schaudge/grailbase/unsafe"
 )
 
 func TestBytesToString(t *testing.T) {

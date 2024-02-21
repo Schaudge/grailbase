@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/s3file"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/s3file"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 )

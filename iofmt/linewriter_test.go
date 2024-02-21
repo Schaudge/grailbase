@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/iofmt"
+	"github.com/Schaudge/grailbase/iofmt"
 	"github.com/grailbio/testutil/assert"
 )
 

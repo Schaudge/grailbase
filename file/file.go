@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/ioctx"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/ioctx"
 )
 
 // File defines operations on a file. Implementations must be thread safe.

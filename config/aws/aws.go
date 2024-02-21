@@ -7,7 +7,7 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/grailbio/base/config"
+	"github.com/Schaudge/grailbase/config"
 )
 
 func init() {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grailbio/base/sync/loadingcache"
-	"github.com/grailbio/base/sync/loadingcache/ctxloadingcache"
+	"github.com/Schaudge/grailbase/sync/loadingcache"
+	"github.com/Schaudge/grailbase/sync/loadingcache/ctxloadingcache"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -114,7 +114,7 @@ var Ec2BlesserDesc rpc.InterfaceDesc = descEc2Blesser
 // descEc2Blesser hides the desc to keep godoc clean.
 var descEc2Blesser = rpc.InterfaceDesc{
 	Name:    "Ec2Blesser",
-	PkgPath: "github.com/grailbio/base/security/identity",
+	PkgPath: "github.com/Schaudge/grailbase/security/identity",
 	Doc:     "// Ec2Blesser returns a blessing given the provided EC2 instance identity\n// document.",
 	Methods: []rpc.MethodDesc{
 		{
@@ -220,7 +220,7 @@ var GoogleBlesserDesc rpc.InterfaceDesc = descGoogleBlesser
 // descGoogleBlesser hides the desc to keep godoc clean.
 var descGoogleBlesser = rpc.InterfaceDesc{
 	Name:    "GoogleBlesser",
-	PkgPath: "github.com/grailbio/base/security/identity",
+	PkgPath: "github.com/Schaudge/grailbase/security/identity",
 	Doc:     "// GoogleBlesser returns a blessing giving the provided Google ID token.",
 	Methods: []rpc.MethodDesc{
 		{
@@ -325,7 +325,7 @@ var K8sBlesserDesc rpc.InterfaceDesc = descK8sBlesser
 // descK8sBlesser hides the desc to keep godoc clean.
 var descK8sBlesser = rpc.InterfaceDesc{
 	Name:    "K8sBlesser",
-	PkgPath: "github.com/grailbio/base/security/identity",
+	PkgPath: "github.com/Schaudge/grailbase/security/identity",
 	Doc:     "// K8sBlesser returns a blessing giving the provided Kubernetes service accountop token.",
 	Methods: []rpc.MethodDesc{
 		{

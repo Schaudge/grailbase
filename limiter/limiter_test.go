@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 func TestLimiter(t *testing.T) {

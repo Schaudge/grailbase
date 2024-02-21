@@ -10,8 +10,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grailbio/base/backgroundcontext"
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/backgroundcontext"
+	"github.com/Schaudge/grailbase/vcontext"
 	v23 "v.io/v23"
 	v23context "v.io/v23/context"
 )

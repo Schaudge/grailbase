@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/file"
 	"github.com/grailbio/testutil/expect"
 )
 
@@ -58,8 +58,8 @@ func TestJoin(t *testing.T) {
 			"s3://bar",
 		},
 		{
-			[]string{"//go/src/grailbio/base/file", "path_test.go"},
-			"//go/src/grailbio/base/file/path_test.go",
+			[]string{"//go/src/Schaudge/grailbase/file", "path_test.go"},
+			"//go/src/Schaudge/grailbase/file/path_test.go",
 		},
 	}
 	for i, test := range tests {

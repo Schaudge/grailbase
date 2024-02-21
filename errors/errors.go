@@ -27,7 +27,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 	"v.io/v23/verror"
 )
 

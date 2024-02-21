@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 )

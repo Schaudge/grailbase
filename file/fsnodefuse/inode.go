@@ -1,8 +1,8 @@
 package fsnodefuse
 
 import (
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/hanwen/go-fuse/v2/fs"
 )
 

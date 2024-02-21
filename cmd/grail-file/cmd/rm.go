@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 func Rm(ctx context.Context, out io.Writer, args []string) error {

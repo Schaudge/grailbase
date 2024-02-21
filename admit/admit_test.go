@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/retry"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/retry"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 func checkState(t *testing.T, p Policy, limit, used int) {

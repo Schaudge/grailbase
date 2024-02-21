@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/config"
-	"github.com/grailbio/base/eventlog"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/config"
+	"github.com/Schaudge/grailbase/eventlog"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/must"
 )
 
 const configName = "biofs/eventer"

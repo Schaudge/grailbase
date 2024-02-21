@@ -6,7 +6,7 @@ package traverse_test
 import (
 	"math/rand"
 
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 func Example() {

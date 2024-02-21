@@ -17,9 +17,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/ecr"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/grailbio/base/cloud/ec2util"
-	"github.com/grailbio/base/common/log"
-	"github.com/grailbio/base/ttlcache"
+	"github.com/Schaudge/grailbase/cloud/ec2util"
+	"github.com/Schaudge/grailbase/common/log"
+	"github.com/Schaudge/grailbase/ttlcache"
 )
 
 type cacheKey struct {

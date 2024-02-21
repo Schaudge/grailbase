@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/grailbio/base/tsv"
+	"github.com/Schaudge/grailbase/tsv"
 	"github.com/grailbio/testutil/assert"
 	"github.com/grailbio/testutil/expect"
 )

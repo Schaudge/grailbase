@@ -36,8 +36,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 // init registers commonly useful parts in the registry and configures

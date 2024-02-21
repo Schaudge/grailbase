@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 	"github.com/grailbio/testutil/assert"
 )
 

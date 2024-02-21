@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/grailbio/base/limitbuf"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/limitbuf"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/grailbio/testutil/expect"
 )
 

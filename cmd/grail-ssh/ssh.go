@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/grailbio/base/security/ticket"
+	"github.com/Schaudge/grailbase/security/ticket"
 	sshLib "golang.org/x/crypto/ssh"
 	terminal "golang.org/x/crypto/ssh/terminal"
 	"v.io/v23/context"

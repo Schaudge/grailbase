@@ -7,9 +7,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/ioctx/fsctx"
-	"github.com/grailbio/base/ioctx/spliceio"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/ioctx/fsctx"
+	"github.com/Schaudge/grailbase/ioctx/spliceio"
 )
 
 // New returns an fsnode.T representing a path on the local filesystem.

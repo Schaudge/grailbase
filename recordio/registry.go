@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/grailbio/base/recordio/recordioiov"
+	"github.com/Schaudge/grailbase/recordio/recordioiov"
 	"github.com/pkg/errors"
 )
 

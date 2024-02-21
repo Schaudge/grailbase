@@ -63,7 +63,7 @@ func find(t *testing.T, dir string, files []string) []string {
 
 func TestEverything(t *testing.T) {
 	sh := gosh.NewShell(nil)
-	bin := testutil.GoExecutable(t, "//go/src/github.com/grailbio/base/pprof/pprof-test/pprof-test")
+	bin := testutil.GoExecutable(t, "//go/src/github.com/Schaudge/grailbase/pprof/pprof-test/pprof-test")
 	tempDir := sh.MakeTempDir()
 	cpu := filepath.Join(tempDir, "c")
 	heap := filepath.Join(tempDir, "h")

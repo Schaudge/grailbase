@@ -10,11 +10,11 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/grailbio/base/compress/zstd"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/fileio"
-	"github.com/grailbio/base/ioctx"
+	"github.com/Schaudge/grailbase/compress/zstd"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/fileio"
+	"github.com/Schaudge/grailbase/ioctx"
 	"github.com/klauspost/compress/gzip"
 	"github.com/yasushi-saito/zlibng"
 )

@@ -3,7 +3,7 @@ package recordio
 import (
 	"encoding/binary"
 
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 // RequiredSpaceUpperBound returns an upper bound on the space required to

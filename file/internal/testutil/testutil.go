@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/traverse"
 	"github.com/grailbio/testutil/assert"
 )
 

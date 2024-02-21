@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Command gofat is a simple utility to make fat binaries in the
-// fatbin format (see github.com/grailbio/base/fatbin).
+// fatbin format (see github.com/Schaudge/grailbase/fatbin).
 package main
 
 import (
@@ -18,9 +18,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/grailbio/base/embedbin"
-	"github.com/grailbio/base/fatbin"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/embedbin"
+	"github.com/Schaudge/grailbase/fatbin"
+	"github.com/Schaudge/grailbase/log"
 )
 
 func main() {

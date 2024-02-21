@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package shutdown implements a global process shutdown mechanism.
-// It is used by package github.com/grailbio/base/grail to perform
+// It is used by package github.com/Schaudge/grailbase/grail to perform
 // graceful shutdown of software components. It is a separate package
 // in order to avoid circular dependencies.
 package shutdown

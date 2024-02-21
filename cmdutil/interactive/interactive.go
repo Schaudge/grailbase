@@ -7,7 +7,7 @@
 //
 // All user-facing programs should use this via an import:
 //
-//   import _ "github.com/grailbio/base/cmdutil/interactive"
+//   import _ "github.com/Schaudge/grailbase/cmdutil/interactive"
 package interactive
 
 import (

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/retry"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/retry"
+	"github.com/Schaudge/grailbase/traverse"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"

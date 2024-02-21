@@ -10,9 +10,9 @@ import (
 	"expvar"
 	"sync"
 
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/retry"
-	"github.com/grailbio/base/sync/ctxsync"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/retry"
+	"github.com/Schaudge/grailbase/sync/ctxsync"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/file"
 )
 
 // Example_localfile is an example of basic read/write operations on the local

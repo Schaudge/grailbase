@@ -10,8 +10,8 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 // LegacyWriterOpts represents the options accepted by NewLegacyWriter.

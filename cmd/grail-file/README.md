@@ -1,6 +1,6 @@
 # grail-file
 
-Command `grail-file` provides common file operations using https://godoc.org/github.com/grailbio/base/file
+Command `grail-file` provides common file operations using https://godoc.org/github.com/Schaudge/grailbase/file
 
 `grail-file --help` will show full help.
 

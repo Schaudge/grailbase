@@ -9,7 +9,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/grailbio/base/logio"
+	"github.com/Schaudge/grailbase/logio"
 )
 
 // ErrCorrupt is returned when a corrupted log is encountered.

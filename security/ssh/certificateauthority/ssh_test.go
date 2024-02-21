@@ -12,7 +12,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 	"github.com/grailbio/testutil/assert"
 )
 

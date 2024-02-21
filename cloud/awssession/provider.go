@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/security/ticket"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/security/ticket"
 	"v.io/v23/context"
 )
 

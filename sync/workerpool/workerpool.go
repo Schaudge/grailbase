@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/grailbio/base/sync/multierror"
+	"github.com/Schaudge/grailbase/sync/multierror"
 	"v.io/x/lib/vlog"
 )
 

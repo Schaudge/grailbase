@@ -8,8 +8,8 @@ import (
 	"flag"
 	"fmt"
 
-	_ "github.com/grailbio/base/cmdutil/interactive"
-	"github.com/grailbio/base/grail"
+	_ "github.com/Schaudge/grailbase/cmdutil/interactive"
+	"github.com/Schaudge/grailbase/grail"
 	"v.io/x/lib/vlog"
 )
 

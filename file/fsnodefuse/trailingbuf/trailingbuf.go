@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file/internal/s3bufpool"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/morebufio"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file/internal/s3bufpool"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/morebufio"
+	"github.com/Schaudge/grailbase/must"
 )
 
 // ErrTooFarBehind is returned if a read goes too far behind the current position.

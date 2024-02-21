@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	gbitset "github.com/grailbio/base/bitset"
+	gbitset "github.com/Schaudge/grailbase/bitset"
 	"github.com/grailbio/testutil/expect"
 	"github.com/willf/bitset"
 )

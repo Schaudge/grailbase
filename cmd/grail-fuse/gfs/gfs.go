@@ -16,10 +16,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
-	gunsafe "github.com/grailbio/base/unsafe"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
+	gunsafe "github.com/Schaudge/grailbase/unsafe"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 )

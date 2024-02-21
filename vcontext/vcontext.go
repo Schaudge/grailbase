@@ -8,8 +8,8 @@ package vcontext
 import (
 	"sync"
 
-	"github.com/grailbio/base/backgroundcontext"
-	"github.com/grailbio/base/shutdown"
+	"github.com/Schaudge/grailbase/backgroundcontext"
+	"github.com/Schaudge/grailbase/shutdown"
 	_ "github.com/grailbio/v23/factories/grail" // Needed to initialize v23
 	v23 "v.io/v23"
 	"v.io/v23/context"

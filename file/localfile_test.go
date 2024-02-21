@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/grailbio/base/file"
-	filetestutil "github.com/grailbio/base/file/internal/testutil"
+	"github.com/Schaudge/grailbase/file"
+	filetestutil "github.com/Schaudge/grailbase/file/internal/testutil"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/assert"
 	"github.com/stretchr/testify/require"

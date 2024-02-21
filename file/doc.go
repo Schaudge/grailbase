@@ -36,8 +36,8 @@
 //    "context"
 //    "ioutil"
 //
-//    "github.com/grailbio/base/file"
-//    "github.com/grailbio/base/file/s3file"    // file.Implementation implementation for S3
+//    "github.com/Schaudge/grailbase/file"
+//    "github.com/Schaudge/grailbase/file/s3file"    // file.Implementation implementation for S3
 //    "github.com/aws/aws-sdk-go/aws/session"
 //    "github.com/stretchr/testify/require"
 //   )
@@ -93,9 +93,9 @@
 //
 //   import (
 //    "ioutil"
-//    "github.com/grailbio/base/context"
-//    "github.com/grailbio/base/file"
-//    "github.com/grailbio/base/file/s3file"    // file.Implementation implementation for S3
+//    "github.com/Schaudge/grailbase/context"
+//    "github.com/Schaudge/grailbase/file"
+//    "github.com/Schaudge/grailbase/file/s3file"    // file.Implementation implementation for S3
 //   )
 //   func init() {
 //     file.RegisterImplementation("s3:", s3file.NewImplementation(...))

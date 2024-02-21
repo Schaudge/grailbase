@@ -5,10 +5,10 @@ import (
 	stderrors "errors"
 	"sync"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file/fsnodefuse/trailingbuf"
-	"github.com/grailbio/base/file/internal/kernel"
-	"github.com/grailbio/base/ioctx"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file/fsnodefuse/trailingbuf"
+	"github.com/Schaudge/grailbase/file/internal/kernel"
+	"github.com/Schaudge/grailbase/ioctx"
 )
 
 type (

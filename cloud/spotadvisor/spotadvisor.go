@@ -153,7 +153,7 @@ type SpotAdvisor struct {
 
 // SimpleLogger is a bare-bones logger interface which allows many logger
 // implementations to be used with SpotAdvisor. The default Go log.Logger and
-// grailbio/base/log.Logger implement this interface.
+// Schaudge/grailbase/log.Logger implement this interface.
 type SimpleLogger interface {
 	Printf(string, ...interface{})
 }

@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/grailbio/base/cloud/awssession"
-	"github.com/grailbio/base/config"
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/cloud/awssession"
+	"github.com/Schaudge/grailbase/config"
+	"github.com/Schaudge/grailbase/vcontext"
 )
 
 func init() {

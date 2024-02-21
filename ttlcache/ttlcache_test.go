@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/ttlcache"
+	"github.com/Schaudge/grailbase/ttlcache"
 )
 
 func TestCache(t *testing.T) {

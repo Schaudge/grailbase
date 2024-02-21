@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/file/fsnode"
+	"github.com/Schaudge/grailbase/file/fsnode"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

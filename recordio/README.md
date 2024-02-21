@@ -4,7 +4,7 @@ A recordio file stores a sequence of _items_, with optional compression and/or
 encryption.  Recordio also allows an application to generate indices.
 
 An API documentation is available at
-https://godoc.org/github.com/grailbio/base/recordio
+https://godoc.org/github.com/Schaudge/grailbase/recordio
 
 ## RecordIO file structure
 
@@ -116,13 +116,13 @@ Each chunk contains a 28 byte header.
 A block can be optionally compressed and/or encrypted using _transformers_.  The
 following example demonstrates the use of flate compression.
 
-https://github.com/grailbio/base/tree/master/recordio/example_basic_test.go
+https://github.com/Schaudge/grailbase/tree/master/recordio/example_basic_test.go
 
 Recordio library provides a few
 standard transformers:
 
-- flate (https://github.com/grailbio/base/tree/master/recordio/recordioflate)
-- zstd (https://github.com/grailbio/base/tree/master/recordio/recordiozstd)
+- flate (https://github.com/Schaudge/grailbase/tree/master/recordio/recordioflate)
+- zstd (https://github.com/Schaudge/grailbase/tree/master/recordio/recordiozstd)
 
 To register zstd, for example, call
 
@@ -144,7 +144,7 @@ An application can arrange a callback function to be run when items are written
 to storage. Such a callback can be used to build an index in a format of
 application's choice.  The following example demonstrates indexing.
 
-  https://github.com/grailbio/base/tree/master/recordio/example_indexing_test.go
+  https://github.com/Schaudge/grailbase/tree/master/recordio/example_indexing_test.go
 
 The index is typically written in the trailer block of the recordio file. The
 recordio scanner provides a feature to read the trailer block.

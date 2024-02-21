@@ -13,13 +13,13 @@ import (
 	"sync"
 
 	"github.com/google/gops/agent"
-	"github.com/grailbio/base/config"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/pprof"
-	"github.com/grailbio/base/shutdown"
+	"github.com/Schaudge/grailbase/config"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/pprof"
+	"github.com/Schaudge/grailbase/shutdown"
 
 	// GRAIL applications require the AWS ticket provider.
-	_ "github.com/grailbio/base/config/awsticket"
+	_ "github.com/Schaudge/grailbase/config/awsticket"
 	"v.io/x/lib/vlog"
 )
 
@@ -34,11 +34,11 @@ var (
 )
 
 // Init should be called once at the beginning at each executable that doesn't
-// use the github.com/grailbio/base/cmdutil. The Shutdown function should be called to
+// use the github.com/Schaudge/grailbase/cmdutil. The Shutdown function should be called to
 // perform the final cleanup (closing logs for example).
 //
 // Init also applies a default configuration profile (see package
-// github.com/grailbio/base/config), and adds profile flags to the
+// github.com/Schaudge/grailbase/config), and adds profile flags to the
 // default flag set. The default profile path used is $HOME/grail/profile.
 //
 // Note that this function will call flag.Parse().

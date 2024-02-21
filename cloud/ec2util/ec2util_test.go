@@ -12,7 +12,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/grailbio/base/cloud/ec2util"
+	"github.com/Schaudge/grailbase/cloud/ec2util"
 )
 
 func TestGetInstance(t *testing.T) {

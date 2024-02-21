@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 )
 
 type testOutputter struct {

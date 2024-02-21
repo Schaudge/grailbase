@@ -7,7 +7,7 @@ package awssession
 import (
 	"testing"
 
-	"github.com/grailbio/base/security/ticket"
+	"github.com/Schaudge/grailbase/security/ticket"
 )
 
 func TestProviderRetrieve(t *testing.T) {

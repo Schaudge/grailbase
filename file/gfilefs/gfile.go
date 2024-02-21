@@ -13,13 +13,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/fsnodefuse"
-	"github.com/grailbio/base/file/internal/readmatcher"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/ioctx/fsctx"
-	"github.com/grailbio/base/sync/ctxsync"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/fsnodefuse"
+	"github.com/Schaudge/grailbase/file/internal/readmatcher"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/ioctx/fsctx"
+	"github.com/Schaudge/grailbase/sync/ctxsync"
 	"github.com/hanwen/go-fuse/v2/fuse"
 )
 

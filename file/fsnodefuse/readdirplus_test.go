@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/file/fsnode"
+	"github.com/Schaudge/grailbase/file/fsnode"
 	"github.com/grailbio/testutil"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"

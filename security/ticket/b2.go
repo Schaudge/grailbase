@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/grailbio/base/common/log"
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/common/log"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 )
 
 const (

@@ -16,8 +16,8 @@ import (
 	"time"
 
 	fuzz "github.com/google/gofuzz"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/vcontext"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/vcontext"
 	"v.io/v23/verror"
 )
 

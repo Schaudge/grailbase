@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 // A Policy is an interface that abstracts retry policies. Typically

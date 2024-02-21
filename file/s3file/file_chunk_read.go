@@ -11,11 +11,11 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3iface"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file/internal/s3bufpool"
-	"github.com/grailbio/base/file/s3file/internal/autolog"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/traverse"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file/internal/s3bufpool"
+	"github.com/Schaudge/grailbase/file/s3file/internal/autolog"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/traverse"
 )
 
 type (

@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/file/s3file/internal/autolog"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/file/s3file/internal/autolog"
+	"github.com/Schaudge/grailbase/log"
 )
 
 // T is an http.RoundTripper specialized for S3. See https://github.com/aws/aws-sdk-go/issues/3739.

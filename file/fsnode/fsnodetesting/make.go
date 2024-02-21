@@ -3,7 +3,7 @@ package fsnodetesting
 import (
 	"testing"
 
-	"github.com/grailbio/base/file/fsnode"
+	"github.com/Schaudge/grailbase/file/fsnode"
 	"github.com/stretchr/testify/require"
 )
 

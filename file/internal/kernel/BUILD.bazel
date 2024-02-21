@@ -3,6 +3,6 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["kernel.go"],
-    importpath = "github.com/grailbio/base/file/internal/kernel",
-    visibility = ["//go/src/github.com/grailbio/base/file:__subpackages__"],
+    importpath = "github.com/Schaudge/grailbase/file/internal/kernel",
+    visibility = ["//go/src/github.com/Schaudge/grailbase/file:__subpackages__"],
 )

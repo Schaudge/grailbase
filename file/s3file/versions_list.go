@@ -7,11 +7,11 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/grail/biofs/biofseventlog"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/grail/biofs/biofseventlog"
+	"github.com/Schaudge/grailbase/must"
 )
 
 // s3Query is a generic description of an S3 object or prefix.

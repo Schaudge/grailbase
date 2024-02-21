@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/file/fsnode"
-	. "github.com/grailbio/base/file/fsnode/fsnodetesting"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	. "github.com/Schaudge/grailbase/file/fsnode/fsnodetesting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

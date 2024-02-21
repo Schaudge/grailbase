@@ -3,7 +3,7 @@ package ticket_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/grailbio/base/security/ticket"
+	"github.com/Schaudge/grailbase/security/ticket"
 	"reflect"
 	"testing"
 	"v.io/v23/context"

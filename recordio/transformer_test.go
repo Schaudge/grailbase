@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/recordioflate"
-	"github.com/grailbio/base/recordio/recordiozstd"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/recordioflate"
+	"github.com/Schaudge/grailbase/recordio/recordiozstd"
 	"github.com/grailbio/testutil/assert"
 )
 

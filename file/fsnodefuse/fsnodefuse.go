@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/file/internal/kernel"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/file/internal/kernel"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 )
@@ -69,7 +69,7 @@ func ConfigureDefaultMountOptions(opts *fuse.MountOptions) {
 	// read chunks per CPU are sufficient to be I/O-bound for large objects. Many smaller object
 	// reads tend to not reach maximum bandwidth, so applications may increase parallelism,
 	// so we set our limit several times higher.
-	// TODO: Run more benchmarks (like github.com/grailbio/base/file/filebench) and tune.
+	// TODO: Run more benchmarks (like github.com/Schaudge/grailbase/file/filebench) and tune.
 	//
 	// [1] As measured by simple logging: https://gitlab.com/grailbio/grail/-/merge_requests/8292/diffs?commit_id=7681acfcac836b92eaca60eb567245b32b81ec50
 	// [2] https://web.archive.org/web/20220815053939/https://libfuse.github.io/doxygen/structfuse__conn__info.html#a5f9e695735727343448ae1e1a86dfa03

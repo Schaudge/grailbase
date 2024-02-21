@@ -12,9 +12,9 @@ import (
 	"github.com/gobwas/glob"
 	"github.com/gobwas/glob/syntax"
 	"github.com/gobwas/glob/syntax/ast"
-	"github.com/grailbio/base/cmd/grail-file/cmd/internal/semaphore"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/cmd/grail-file/cmd/internal/semaphore"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
 )
 
 var commands = []struct {

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/hanwen/go-fuse/v2/fs"
 )
 

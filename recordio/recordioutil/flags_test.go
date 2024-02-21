@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/grailbio/base/recordio/recordioutil"
+	"github.com/Schaudge/grailbase/recordio/recordioutil"
 	"github.com/grailbio/testutil"
 	"github.com/grailbio/testutil/expect"
 	"github.com/klauspost/compress/flate"

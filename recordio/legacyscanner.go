@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/recordio/deprecated"
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 // legacyScanner is a ScannerV2 implementation that reads legacy recordio files,

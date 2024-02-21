@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/grailbio/base/tsv"
+	"github.com/Schaudge/grailbase/tsv"
 )
 
 func TestWriter(t *testing.T) {

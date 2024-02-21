@@ -7,12 +7,12 @@ import (
 	"unsafe"
 
 	"github.com/aws/aws-sdk-go/service/s3/s3iface"
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/grail/biofs/biofseventlog"
-	"github.com/grailbio/base/ioctx"
-	"github.com/grailbio/base/ioctx/fsctx"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/grail/biofs/biofseventlog"
+	"github.com/Schaudge/grailbase/ioctx"
+	"github.com/Schaudge/grailbase/ioctx/fsctx"
 )
 
 type (

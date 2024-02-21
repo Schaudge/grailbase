@@ -3,7 +3,7 @@ package recordio_test
 import (
 	"testing"
 
-	"github.com/grailbio/base/recordio"
+	"github.com/Schaudge/grailbase/recordio"
 	"github.com/grailbio/testutil/assert"
 )
 

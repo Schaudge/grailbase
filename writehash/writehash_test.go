@@ -9,7 +9,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/grailbio/base/writehash"
+	"github.com/Schaudge/grailbase/writehash"
 )
 
 type fakeHasher struct{ io.Writer }

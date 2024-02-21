@@ -24,8 +24,8 @@ func TestLogging(t *testing.T) {
 	}
 	tempdir := sh.MakeTempDir()
 	defer testutil.NoCleanupOnError(t, sh.Cleanup, tempdir)
-	logger := testutil.GoExecutable(t, "//go/src/github.com/grailbio/base/cmdutil/cmdline-test/cmdline-test")
-	naked := testutil.GoExecutable(t, "//go/src/github.com/grailbio/base/cmdutil/naked-test/naked-test")
+	logger := testutil.GoExecutable(t, "//go/src/github.com/Schaudge/grailbase/cmdutil/cmdline-test/cmdline-test")
+	naked := testutil.GoExecutable(t, "//go/src/github.com/Schaudge/grailbase/cmdutil/naked-test/naked-test")
 	testLogging(t, sh, tempdir, logger, naked)
 	testHelp(t, sh, tempdir, logger, naked)
 }

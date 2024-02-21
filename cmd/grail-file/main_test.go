@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grailbio/base/cmd/grail-file/cmd"
-	"github.com/grailbio/base/file"
+	"github.com/Schaudge/grailbase/cmd/grail-file/cmd"
+	"github.com/Schaudge/grailbase/file"
 	"github.com/grailbio/testutil"
 	"github.com/stretchr/testify/assert"
 )

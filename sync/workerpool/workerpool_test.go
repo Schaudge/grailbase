@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/grail"
-	"github.com/grailbio/base/sync/workerpool"
+	"github.com/Schaudge/grailbase/grail"
+	"github.com/Schaudge/grailbase/sync/workerpool"
 	"github.com/stretchr/testify/assert"
 )
 

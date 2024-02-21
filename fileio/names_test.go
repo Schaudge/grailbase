@@ -7,7 +7,7 @@ package fileio_test
 import (
 	"testing"
 
-	"github.com/grailbio/base/fileio"
+	"github.com/Schaudge/grailbase/fileio"
 )
 
 func TestNames(t *testing.T) {

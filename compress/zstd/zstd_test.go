@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/grailbio/base/compress/zstd"
+	"github.com/Schaudge/grailbase/compress/zstd"
 	"github.com/grailbio/testutil/assert"
 )
 

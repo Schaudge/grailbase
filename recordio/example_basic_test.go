@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/recordioflate"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/recordioflate"
 )
 
 func init() {

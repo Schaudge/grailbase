@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grailbio/base/flock"
+	"github.com/Schaudge/grailbase/flock"
 	"github.com/grailbio/testutil/assert"
 )
 

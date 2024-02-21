@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/grailbio/base/common/log"
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/common/log"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 	"v.io/v23/context"
 	"v.io/v23/security"
 )

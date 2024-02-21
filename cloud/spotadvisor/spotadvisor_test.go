@@ -15,7 +15,7 @@ import (
 	"sort"
 	"testing"
 
-	sa "github.com/grailbio/base/cloud/spotadvisor"
+	sa "github.com/Schaudge/grailbase/cloud/spotadvisor"
 )
 
 // Contains an abridged version of a real response to make got/want comparisons easier.

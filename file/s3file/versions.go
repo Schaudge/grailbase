@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/addfs"
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/grail/biofs/biofseventlog"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/addfs"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/grail/biofs/biofseventlog"
 )
 
 type versionsFunc struct{}

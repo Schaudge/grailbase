@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/log"
 )
 
 // List implements file.Implementation interface.

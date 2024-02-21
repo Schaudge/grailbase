@@ -7,7 +7,7 @@ package recordioutil_test
 import (
 	"testing"
 
-	"github.com/grailbio/base/recordio/recordioutil"
+	"github.com/Schaudge/grailbase/recordio/recordioutil"
 	"github.com/klauspost/compress/flate"
 )
 

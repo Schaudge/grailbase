@@ -33,7 +33,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 )
 
 const (

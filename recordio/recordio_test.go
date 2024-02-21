@@ -9,13 +9,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/grailbio/base/grail"
-	"github.com/grailbio/base/log"
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/deprecated"
-	"github.com/grailbio/base/recordio/recordioflate"
-	"github.com/grailbio/base/recordio/recordioutil"
-	"github.com/grailbio/base/recordio/recordiozstd"
+	"github.com/Schaudge/grailbase/grail"
+	"github.com/Schaudge/grailbase/log"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/deprecated"
+	"github.com/Schaudge/grailbase/recordio/recordioflate"
+	"github.com/Schaudge/grailbase/recordio/recordioutil"
+	"github.com/Schaudge/grailbase/recordio/recordiozstd"
 	"github.com/grailbio/testutil/assert"
 )
 

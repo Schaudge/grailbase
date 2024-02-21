@@ -10,7 +10,7 @@
 package keychain
 
 import (
-	"github.com/grailbio/base/security/keycrypt"
+	"github.com/Schaudge/grailbase/security/keycrypt"
 	keychain "github.com/keybase/go-keychain"
 )
 

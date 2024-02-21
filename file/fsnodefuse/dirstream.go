@@ -5,9 +5,9 @@ import (
 	"io"
 	"syscall"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file/fsnode"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file/fsnode"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 )

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grailbio/base/tsv"
+	"github.com/Schaudge/grailbase/tsv"
 )
 
 func TestRowWriter(t *testing.T) {

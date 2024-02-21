@@ -1,7 +1,7 @@
 package recordio
 
 import (
-	"github.com/grailbio/base/recordio/internal"
+	"github.com/Schaudge/grailbase/recordio/internal"
 )
 
 // TransformFunc is called to (un)compress or (un)encrypt data. Parameter

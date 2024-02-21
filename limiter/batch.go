@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grailbio/base/sync/ctxsync"
+	"github.com/Schaudge/grailbase/sync/ctxsync"
 	"golang.org/x/time/rate"
 )
 

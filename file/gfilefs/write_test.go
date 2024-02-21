@@ -17,11 +17,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/grailbio/base/errors"
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/fsnodefuse"
-	"github.com/grailbio/base/file/gfilefs"
-	"github.com/grailbio/base/file/s3file"
+	"github.com/Schaudge/grailbase/errors"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/fsnodefuse"
+	"github.com/Schaudge/grailbase/file/gfilefs"
+	"github.com/Schaudge/grailbase/file/s3file"
 	"github.com/grailbio/testutil"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
@@ -375,7 +375,7 @@ type testMount struct {
 
 // forEachFile runs the callback for every file under the directory in
 // parallel.  It returns any of the errors returned by the callback.  It is
-// cribbed from github.com/grailbio/base/cmd/grail-file/cmd.
+// cribbed from github.com/Schaudge/grailbase/cmd/grail-file/cmd.
 func forEachFile(ctx context.Context, dir string, callback func(path string) error) error {
 	const parallelism = 32
 	err := errors.Once{}

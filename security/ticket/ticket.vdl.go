@@ -69,7 +69,7 @@ func (x Control) String() string {
 }
 
 func (Control) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.Control"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.Control"`
 	Enum struct{ PagerDutyId, Rationale, TicketId string }
 }) {
 }
@@ -108,7 +108,7 @@ type AwsCredentials struct {
 }
 
 func (AwsCredentials) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.AwsCredentials"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.AwsCredentials"`
 }) {
 }
 
@@ -224,7 +224,7 @@ type AwsAssumeRoleBuilder struct {
 }
 
 func (AwsAssumeRoleBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.AwsAssumeRoleBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.AwsAssumeRoleBuilder"`
 }) {
 }
 
@@ -316,7 +316,7 @@ type AwsSessionBuilder struct {
 }
 
 func (AwsSessionBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.AwsSessionBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.AwsSessionBuilder"`
 }) {
 }
 
@@ -402,7 +402,7 @@ type TlsCertAuthorityBuilder struct {
 }
 
 func (TlsCertAuthorityBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.TlsCertAuthorityBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.TlsCertAuthorityBuilder"`
 }) {
 }
 
@@ -573,7 +573,7 @@ type SshCertAuthorityBuilder struct {
 }
 
 func (SshCertAuthorityBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.SshCertAuthorityBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.SshCertAuthorityBuilder"`
 }) {
 }
 
@@ -732,7 +732,7 @@ type B2AccountAuthorizationBuilder struct {
 }
 
 func (B2AccountAuthorizationBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.B2AccountAuthorizationBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.B2AccountAuthorizationBuilder"`
 }) {
 }
 
@@ -809,7 +809,7 @@ type VanadiumBuilder struct {
 }
 
 func (VanadiumBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.VanadiumBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.VanadiumBuilder"`
 }) {
 }
 
@@ -876,7 +876,7 @@ type AwsTicket struct {
 }
 
 func (AwsTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.AwsTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.AwsTicket"`
 }) {
 }
 
@@ -995,7 +995,7 @@ type S3Ticket struct {
 }
 
 func (S3Ticket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.S3Ticket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.S3Ticket"`
 }) {
 }
 
@@ -1153,7 +1153,7 @@ type EcrTicket struct {
 }
 
 func (EcrTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.EcrTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.EcrTicket"`
 }) {
 }
 
@@ -1267,7 +1267,7 @@ type SshCert struct {
 }
 
 func (SshCert) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.SshCert"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.SshCert"`
 }) {
 }
 
@@ -1339,7 +1339,7 @@ type TlsCredentials struct {
 }
 
 func (TlsCredentials) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.TlsCredentials"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.TlsCredentials"`
 }) {
 }
 
@@ -1428,7 +1428,7 @@ type TlsServerTicket struct {
 }
 
 func (TlsServerTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.TlsServerTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.TlsServerTicket"`
 }) {
 }
 
@@ -1520,7 +1520,7 @@ type TlsClientTicket struct {
 }
 
 func (TlsClientTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.TlsClientTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.TlsClientTicket"`
 }) {
 }
 
@@ -1635,7 +1635,7 @@ type DockerTicket struct {
 }
 
 func (DockerTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.DockerTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.DockerTicket"`
 }) {
 }
 
@@ -1738,7 +1738,7 @@ type DockerServerTicket struct {
 }
 
 func (DockerServerTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.DockerServerTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.DockerServerTicket"`
 }) {
 }
 
@@ -1831,7 +1831,7 @@ type DockerClientTicket struct {
 }
 
 func (DockerClientTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.DockerClientTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.DockerClientTicket"`
 }) {
 }
 
@@ -1933,7 +1933,7 @@ type Parameter struct {
 }
 
 func (Parameter) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.Parameter"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.Parameter"`
 }) {
 }
 
@@ -2014,7 +2014,7 @@ type AwsComputeInstancesBuilder struct {
 }
 
 func (AwsComputeInstancesBuilder) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.AwsComputeInstancesBuilder"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.AwsComputeInstancesBuilder"`
 }) {
 }
 
@@ -2160,7 +2160,7 @@ type ComputeInstance struct {
 }
 
 func (ComputeInstance) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.ComputeInstance"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.ComputeInstance"`
 }) {
 }
 
@@ -2279,7 +2279,7 @@ type SshCertificateTicket struct {
 }
 
 func (SshCertificateTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.SshCertificateTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.SshCertificateTicket"`
 }) {
 }
 
@@ -2485,7 +2485,7 @@ type B2Ticket struct {
 }
 
 func (B2Ticket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.B2Ticket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.B2Ticket"`
 }) {
 }
 
@@ -2638,7 +2638,7 @@ type VanadiumTicket struct {
 }
 
 func (VanadiumTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.VanadiumTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.VanadiumTicket"`
 }) {
 }
 
@@ -2728,7 +2728,7 @@ type GenericTicket struct {
 }
 
 func (GenericTicket) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.GenericTicket"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.GenericTicket"`
 }) {
 }
 
@@ -2825,7 +2825,7 @@ type (
 	TicketGenericTicket struct{ Value GenericTicket }
 	// vdlTicketReflect describes the Ticket union type.
 	vdlTicketReflect struct {
-		Name  string `vdl:"github.com/grailbio/base/security/ticket.Ticket"`
+		Name  string `vdl:"github.com/Schaudge/grailbase/security/ticket.Ticket"`
 		Type  Ticket
 		Union struct {
 			AwsTicket            TicketAwsTicket
@@ -3254,7 +3254,7 @@ type TicketConfig struct {
 }
 
 func (TicketConfig) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.TicketConfig"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.TicketConfig"`
 }) {
 }
 
@@ -3409,7 +3409,7 @@ type Config struct {
 }
 
 func (Config) VDLReflect(struct {
-	Name string `vdl:"github.com/grailbio/base/security/ticket.Config"`
+	Name string `vdl:"github.com/Schaudge/grailbase/security/ticket.Config"`
 }) {
 }
 
@@ -3672,7 +3672,7 @@ var TicketServiceDesc rpc.InterfaceDesc = descTicketService
 // descTicketService hides the desc to keep godoc clean.
 var descTicketService = rpc.InterfaceDesc{
 	Name:    "TicketService",
-	PkgPath: "github.com/grailbio/base/security/ticket",
+	PkgPath: "github.com/Schaudge/grailbase/security/ticket",
 	Doc:     "// TicketService provides a way to obtain a ticket. The access can be\n// restricted by setting the permissions appropriately.",
 	Methods: []rpc.MethodDesc{
 		{
@@ -3806,7 +3806,7 @@ var ListServiceDesc rpc.InterfaceDesc = descListService
 // descListService hides the desc to keep godoc clean.
 var descListService = rpc.InterfaceDesc{
 	Name:    "ListService",
-	PkgPath: "github.com/grailbio/base/security/ticket",
+	PkgPath: "github.com/Schaudge/grailbase/security/ticket",
 	Methods: []rpc.MethodDesc{
 		{
 			Name: "List",

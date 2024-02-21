@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/grailbio/base/file"
-	"github.com/grailbio/base/file/fsnodefuse"
-	"github.com/grailbio/base/file/gfilefs"
-	"github.com/grailbio/base/file/s3file"
-	"github.com/grailbio/base/must"
+	"github.com/Schaudge/grailbase/file"
+	"github.com/Schaudge/grailbase/file/fsnodefuse"
+	"github.com/Schaudge/grailbase/file/gfilefs"
+	"github.com/Schaudge/grailbase/file/s3file"
+	"github.com/Schaudge/grailbase/must"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 )

@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/grailbio/base/simd"
+	"github.com/Schaudge/grailbase/simd"
 	"github.com/grailbio/testutil/expect"
 )
 
@@ -172,7 +172,7 @@ func findNaNOrInfStandardSubtask(args interface{}, nIter int) int {
 }
 
 // On an m5.16xlarge:
-//   $ bazel run //go/src/github.com/grailbio/base/simd:go_default_test -- -test.bench=FindNaNOrInf
+//   $ bazel run //go/src/github.com/Schaudge/grailbase/simd:go_default_test -- -test.bench=FindNaNOrInf
 //   ...
 // Benchmark_FindNaNOrInf/SIMDLong1Cpu-64                82          14053127 ns/op
 // Benchmark_FindNaNOrInf/SIMDLongHalfCpu-64            960           1143599 ns/op

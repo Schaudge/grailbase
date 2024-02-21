@@ -6,6 +6,6 @@
 // a sequence of items, with optional compressiond, encryption, and indexing.
 //
 // See the README.md file
-// (https://github.com/grailbio/base/blob/master/recordio/README.md) for more
+// (https://github.com/Schaudge/grailbase/blob/master/recordio/README.md) for more
 // detailed documentation.
 package recordio

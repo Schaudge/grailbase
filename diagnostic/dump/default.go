@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/log"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/mem"

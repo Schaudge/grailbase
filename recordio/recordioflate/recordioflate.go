@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/grailbio/base/recordio"
-	"github.com/grailbio/base/recordio/recordioiov"
+	"github.com/Schaudge/grailbase/recordio"
+	"github.com/Schaudge/grailbase/recordio/recordioiov"
 	"github.com/klauspost/compress/flate"
 )
 

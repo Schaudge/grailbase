@@ -7,8 +7,8 @@ package cmdutil
 import (
 	"sync"
 
-	"github.com/grailbio/base/pprof"
-	"github.com/grailbio/base/shutdown"
+	"github.com/Schaudge/grailbase/pprof"
+	"github.com/Schaudge/grailbase/shutdown"
 	"v.io/x/lib/cmdline"
 	"v.io/x/lib/vlog"
 )

@@ -42,8 +42,8 @@ func printVersion(prefix string) {
 // The version and tags are set at build time using something like:
 //
 //    go build -ldflags \
-//     "-X github.com/grailbio/base/cmdutil.version=$version \
-//      -X github.com/grailbio/base/cmdutil.tags=$tags"
+//     "-X github.com/Schaudge/grailbase/cmdutil.version=$version \
+//      -X github.com/Schaudge/grailbase/cmdutil.tags=$tags"
 func CreateVersionCommand(name, prefix string) *cmdline.Command {
 	return &cmdline.Command{
 		Runner: RunnerFunc(func(_ *cmdline.Env, _ []string) error {

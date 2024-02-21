@@ -12,7 +12,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 type chunkFlag uint32

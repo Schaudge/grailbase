@@ -1,8 +1,8 @@
 package spliceio_test
 
 import (
-	"github.com/grailbio/base/file/fsnodefuse"
-	"github.com/grailbio/base/ioctx/spliceio"
+	"github.com/Schaudge/grailbase/file/fsnodefuse"
+	"github.com/Schaudge/grailbase/ioctx/spliceio"
 )
 
 // Check this here to avoid circular package dependency with fsnodefuse.

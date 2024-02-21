@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grailbio/base/errors"
+	"github.com/Schaudge/grailbase/errors"
 )
 
 const (

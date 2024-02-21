@@ -20,8 +20,8 @@ package eventlog
 import (
 	"bytes"
 
-	"github.com/grailbio/base/config"
-	"github.com/grailbio/base/log"
+	"github.com/Schaudge/grailbase/config"
+	"github.com/Schaudge/grailbase/log"
 )
 
 func init() {
