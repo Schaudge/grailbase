@@ -1,4 +1,4 @@
-module github.com/grailbio/base
+module github.com/Schaudge/grailbiobase
 
 go 1.13
 
