@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/DataDog/zstd v1.4.1
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5
-	github.com/aws/aws-sdk-go v1.50.22
+	github.com/aws/aws-sdk-go v1.50.24
 	github.com/biogo/store v0.0.0-20190426020002-884f370e325d
 	github.com/cespare/xxhash/v2 v2.1.0
 	github.com/gobwas/glob v0.2.3
